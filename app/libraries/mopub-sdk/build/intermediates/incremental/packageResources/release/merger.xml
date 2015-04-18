@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/Users/MacPro/MySquar/Libs/OnePathAds/app/libraries/mopub-sdk/res"/><source path="/Users/MacPro/MySquar/Libs/OnePathAds/app/libraries/mopub-sdk/build/generated/res/rs/release"/><source path="/Users/MacPro/MySquar/Libs/OnePathAds/app/libraries/mopub-sdk/build/generated/res/generated/release"/></dataSet><dataSet config="release"><source path="/Users/MacPro/MySquar/Libs/OnePathAds/app/libraries/mopub-sdk/src/release/res"/></dataSet><mergedItems/></merger>
