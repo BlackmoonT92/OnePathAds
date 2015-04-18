@@ -41,15 +41,15 @@ android {
         }
     }
 
-    // Note: You will also need a local.properties file to set the location of the SDK in the same 
+    // Note: You will also need a local.properties file to set the location of the SDK in the same
     // way that the existing SDK requires, using the sdk.dir property.
-    // Alternatively, you can set an environment variable called ANDROID_HOME. There is no 
+    // Alternatively, you can set an environment variable called ANDROID_HOME. There is no
     // difference between the two methods, you can use the one you prefer.
 }
 
 dependencies {
-    compile 'com.android.support:support-v4:19.1.+'
-    compile 'com.android.support:support-annotations:20.0.0'
+    compile files('libs/android-support-v4')
+    compile files('android-support-annotations.jar')
     compile files('libs/mopub-volley-1.0.0.jar')
 }
 

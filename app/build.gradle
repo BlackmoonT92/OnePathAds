@@ -21,7 +21,7 @@ android {
 
 dependencies {
   compile fileTree(dir: 'libs', include: ['*.jar'])
-  compile 'com.android.support:appcompat-v7:21.0.3'
+  compile files('android-support-v7-appcompat')
   compile project('libraries:mopub-sdk')
   compile 'cn.pedant.sweetalert:library:1.3'
 
